@@ -1,4 +1,4 @@
-# phase-analytic-inverse-design-framework
+# Phase analytic inverse design framework
 
 ## Overview
 
@@ -190,3 +190,4 @@ via Geometric Phase Sensitivity.*
 
 
 This project is released under the MIT License.
+
