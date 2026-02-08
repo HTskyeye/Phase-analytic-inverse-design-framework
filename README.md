@@ -1,19 +1,5 @@
 # phase-analytic-inverse-design-framework
 
-## Phase-Analytic Quantification of the Minimal Stable Footprint in Nanophotonic Inverse Design
-
-This repository provides the reproducible numerical framework accompanying the manuscript:
-
-**Quantifying the Minimal Stable Footprint of Nanophotonic Inverse Design via Geometric Phase Sensitivity**
-
-**Authors**  
-Xinliang Ge, Xiaojun Hu, Lihui Lv, Shuhe Ma, Chenyu Wang, Yanbin Yang,  
-Haoliang Qian\*, Dexin Ye\*  
-
-Zhejiang University
-
----
-
 ## Overview
 
 This codebase implements a **phase-analytic inverse-design framework** that quantitatively identifies three distinct physical regimes in nanophotonic inverse design:
@@ -200,16 +186,7 @@ via Geometric Phase Sensitivity.*
 
 ---
 
-## Contact
-
-Haoliang Qian  
-Email: haoliangqian@zju.edu.cn  
-
-Dexin Ye  
-Email: desy@zju.edu.cn  
-
----
-
 ## License
+
 
 This project is released under the MIT License.
