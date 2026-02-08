@@ -1,0 +1,53 @@
+materials:
+  eps_min: 4.6
+  n_si: 3.1
+spectral:
+  wavelength_min: 1.24
+  wavelength_max: 1.47
+  delta_wl: 0.005
+  monitor_idx:
+  - 10
+  - 36
+  terminals:
+    terminal_1:
+    - 0
+    - 21
+    terminal_2:
+    - 26
+    - 47
+design_region:
+  pixel_size: 0.08
+  nx_orig: 45
+  ny_orig: 60
+ports:
+  output_plane_x_offset: 0.8
+sim_size:
+  x_margin: 1.0
+  y_margin: 2.0
+optim:
+  steps: 40
+  save_every: 5
+  clamp_params: true
+  adam:
+    lr_init: 0.05
+    decay_steps: 5
+    decay_rate: 0.8
+beta_schedule:
+  type: constant
+  value: 1
+postprocess:
+  export_flux_csv: true
+  save_density_png: true
+output:
+  root: results
+regime:
+  name: stable
+  scale_factor: 0.7
+  run_id: 20260204-125523_sf0.70_smoke_all05
+layout:
+  nx: 31
+  ny: 42
+  design_x: 2.48
+  design_y: 3.36
+  Lx: 5.08
+  Ly: 5.359999999999999
